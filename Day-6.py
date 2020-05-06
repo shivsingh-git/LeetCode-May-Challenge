@@ -4,5 +4,5 @@ class Solution:
 #or we can return the mode of the given list
 from statistics import mode
 class Solution:
-    def majorityelement(self,nums: List[int]) -> int:
+    def majorityElement(self,nums: List[int]) -> int:
         return(mode(nums))
