@@ -13,12 +13,12 @@
 
 class Solution:
     def findComplement(self, num: int) -> int:
-        b=bin(num).replace("0b","")
+        b=bin(num).replace("0b","")                                         #converting the number to binary and replacing frst two digits
         c=''
         for i in range(len(b)):
-            if(b[i]=="1"):
+            if(b[i]=="1"):                                                  #changing 0 to 1 and 1 to 0
                 c += "0"
             else:
                 c += "1"
                 
-        return(int(c,2))      
+        return(int(c,2))                                                   #returning the value in the int format      
