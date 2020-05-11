@@ -5,10 +5,12 @@ class Solution:
             for i in range (0,len(c)):
                 if(c[i][0]==c[0][0]):
                     count+=1
+
         elif((c[1][1]--c[0][1])==0):
             for i in range(0,len(c)):
                 if(c[i][1]==c[0][1]):
                     count+=1
+
         else:            
             m=(c[1][1]-c[0][1])/(c[1][0]-c[0][0])
             for i in range (0,len(c)):
