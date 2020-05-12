@@ -1,3 +1,4 @@
+#its a binary search approach
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         left, right = 0, len(nums)-1
