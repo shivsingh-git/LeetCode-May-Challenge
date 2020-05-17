@@ -12,13 +12,13 @@
 #Output: 0
 class Solution:
         def numJewelsInStones(self, J: str, S: str) -> int:
-            x , y =[] , []
+            x , y =[] , []                                              #initializing two lists
             for i in J :
-                x.append( i )
+                x.append( i )                                           #storing the values in the list
             for i in S :
-                y.append( i )
+                y.append( i )                                           #storing all the elements in the list 
             c = 0
             for i in x :
-                c = c + y.count(i)
+                c = c + y.count(i)                                      #counting the values which are in the list
             return c
         
