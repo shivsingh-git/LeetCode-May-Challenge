@@ -6,11 +6,11 @@
 #s = "loveleetcode",
 #return 2.
 #Note: You may assume the string contain only lowercase letters.
-from collections import Counter
+from collections import Counter                                         #importing the class Counter
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        c = Counter(s)
+        c = Counter(s)                                                  #intializing the counter
         for i in range(len(s)):
-            if c[s[i]] == 1:
-                return i
+            if c[s[i]] == 1:                                            #if the count of the number is 1
+                return i                                                #return the value of the position
         return -1
