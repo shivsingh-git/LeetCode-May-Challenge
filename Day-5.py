@@ -13,4 +13,4 @@ class Solution:
         for i in range(len(s)):
             if c[s[i]] == 1:                                            #if the count of the number is 1
                 return i                                                #return the value of the position
-        return -1
+        return -1                                                       #if not then return -1
