@@ -1,6 +1,3 @@
-# Python3 program for array implementation of queue 
-
-# Class Queue to represent a queue 
 class Queue: 
 
 	# __init__ function 
